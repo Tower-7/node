@@ -1,0 +1,11 @@
+version: "2"
+services:
+  jsconsole:
+    build: .
+    volumes:
+      - ./web:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "8081:8080"
+    command: "npm start"
+    restart: always

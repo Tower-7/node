@@ -13,6 +13,6 @@ mv ishuber2.0 web
 ### 启动运行node
 ```
 cd /home/wwwroot/node && \ 
-docker-compose bulid && \
+docker-compose build && \
 docker-compose up -d
 ```

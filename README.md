@@ -1,6 +1,6 @@
 ### 下载node相关文件
 ```
-mkdir /home/wwwroot/ && \
+mkdir -p /home/wwwroot/ && \
 cd /home/wwwroot/ && \
 git clone https://github.com/Tower-7/node.git
 ```

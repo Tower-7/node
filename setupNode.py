@@ -3,4 +3,3 @@ import os
 # 启动mongo
 def startMongo():
     os.system('cd /config/mongo/docker && docker-compose up -d')
-startMongo()
